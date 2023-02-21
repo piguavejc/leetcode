@@ -14,7 +14,7 @@ function combinatoria_triangulo(numeros) {
         while (minimo < maximo) {
             let calculo = numeros[minimo] + numeros[maximo];
             if (calculo > actual) {
-                respuesta += (maximo - minimo);
+                respuesta += maximo - minimo;
                 maximo--;
             }
             else {

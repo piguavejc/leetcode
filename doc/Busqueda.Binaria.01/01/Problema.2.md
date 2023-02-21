@@ -8,11 +8,11 @@ _Cada vez que te **equivoques**, te diré si el **número** que he **escogido** 
 
 _**Llamas** a una **API** predefinida int **guess(int numero)**, que devuelve **tres** posibles **resultados:**_
 
--   _**-1:** Su **respuesta** es **mayor** que el **número** que yo **elegí** (es decir, **numero** `>` **objetivo**)._
--   _**1:** Su **respuesta** es **menor** que el **número** que **elegí** (es decir, **numero** `<` **objetivo**)._
--   _**0:** Su **respuesta** es **igual** al **número** que **elegí** (es decir, **numero** `=` **objetivo**)._
+- _**-1:** Su **respuesta** es **mayor** que el **número** que yo **elegí** (es decir, **numero** `>` **objetivo**)._
+- _**1:** Su **respuesta** es **menor** que el **número** que **elegí** (es decir, **numero** `<` **objetivo**)._
+- _**0:** Su **respuesta** es **igual** al **número** que **elegí** (es decir, **numero** `=` **objetivo**)._
 
--   _**Devuelve el número que elegí.**_
+- _**Devuelve el número que elegí.**_
 
 #### _Ejemplo 1:_
 
@@ -43,5 +43,5 @@ let objetivo: number = 1;
 
 #### _Restricciones:_
 
--   _**1** `<=` **n** `<=` **(2^31 - 1)** `|----|` **[1 : (2^31 - 1)]**_
--   _**1** `<=` **objetivo** `<=` **n** `|----|` **[1 : n ]**_
+- _**1** `<=` **n** `<=` **(2^31 - 1)** `|----|` **[1 : (2^31 - 1)]**_
+- _**1** `<=` **objetivo** `<=` **n** `|----|` **[1 : n ]**_

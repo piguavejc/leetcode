@@ -2,7 +2,7 @@ _Dada una matriz de caracteres letras que está ordenada en orden no decreciente
 
 _**Tenga** en cuenta que las letras se envuelven._
 
--   Por ejemplo, si objetivo == 'z' y letras == ['a', 'b'], la respuesta es 'a'.
+- Por ejemplo, si objetivo == 'z' y letras == ['a', 'b'], la respuesta es 'a'.
 
 ##### Ejemplo 1
 
@@ -27,8 +27,8 @@ Salida: "f"
 
 ##### Restriciciones
 
--   `2 <= letras.longitud <= 10^4`
--   `letters[i]` es una letra inglesa minúscula.
--   Las Letras está ordenado en orden no decreciente.
--   Las letras contiene al menos dos caracteres diferentes.
--   El objetivo es una letra inglesa minúscula.
+- `2 <= letras.longitud <= 10^4`
+- `letters[i]` es una letra inglesa minúscula.
+- Las Letras está ordenado en orden no decreciente.
+- Las letras contiene al menos dos caracteres diferentes.
+- El objetivo es una letra inglesa minúscula.

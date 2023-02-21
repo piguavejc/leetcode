@@ -12,7 +12,6 @@ function obtener_menor_numero(numeros) {
             return ultimo;
         return inicial;
     }
-    ;
     while (minimo <= maximo) {
         let mitad = Math.trunc((minimo + maximo) / 2);
         let actual = numeros[mitad];

@@ -18,7 +18,7 @@ function suma_vectores_minimo(numeros, objetivo) {
         if (actual >= objetivo) {
             let ref_actual = actual;
             while (ref_actual >= objetivo) {
-                resultado = Math.min(resultado, (i - ll) + 1);
+                resultado = Math.min(resultado, i - ll + 1);
                 ll++;
                 ref_actual = actual - suma[ll];
             }
@@ -29,4 +29,3 @@ function suma_vectores_minimo(numeros, objetivo) {
     return resultado;
 }
 exports.suma_vectores_minimo = suma_vectores_minimo;
-;

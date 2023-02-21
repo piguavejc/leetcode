@@ -1,11 +1,12 @@
 ### _Busqueda Binaria_
+
 _Dada una **matriz** de números **enteros** que está ordenada en forma **ascendente**, y un **objetivo** entero._
 
 - _Escriba una **función** para buscar el **objetivo** en números. Si el **objetivo** existe, devuelve su **índice**._
 
 - _En caso contrario, **devuelve -1**._
 
--   _Debe escribir un algoritmo con una complejidad de tiempo de ejecución **O(log n)**._
+- _Debe escribir un algoritmo con una complejidad de tiempo de ejecución **O(log n)**._
 
 #### _Ejemplo 1:_
 
@@ -29,8 +30,8 @@ let objetivo: number = 2;
 
 #### _Restricciones:_
 
--   _**1** `<=` **nums.length** `<=` **10^4** `|----|` **[1 ; 10^4]**_
--   _**-10^4** `<` **números[i]** `|----|` **[-10^4 : actual]**_
--  _**objetivo** `<` **10^4** `|----|` **[objetivo : 10^4]**_
--   _Todos los enteros de numeros son únicos._
--   _Números se ordena en orden ascendente_
+- _**1** `<=` **nums.length** `<=` **10^4** `|----|` **[1 ; 10^4]**_
+- _**-10^4** `<` **números[i]** `|----|` **[-10^4 : actual]**_
+- _**objetivo** `<` **10^4** `|----|` **[objetivo : 10^4]**_
+- _Todos los enteros de numeros son únicos._
+- _Números se ordena en orden ascendente_

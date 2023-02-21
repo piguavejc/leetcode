@@ -38,5 +38,5 @@ let numeros: number[] = [0, 4, 3, 0, 4];
 
 #### _Restricciones_
 
--   `1 <= numeross.length <= 100 || [1 ; 100]`
--   `0 <= numeross[i] <= 1000 || [0 ; 1000]`
+- `1 <= numeross.length <= 100 || [1 ; 100]`
+- `0 <= numeross[i] <= 1000 || [0 ; 1000]`

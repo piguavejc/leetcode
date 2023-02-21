@@ -33,7 +33,7 @@ let objetivo: number = 0;
 
 ##### Restricciones
 
--   `0 <= numeros.length <= 10^5 || [0 ; 10^5] `
--   `-10^9 <= numeros[i] <= 10^9 || [-10^9 ; 10^9] `
--   **numeros es un array no decreciente.**
--   `-10^9 <= objetivo <= 10^9 || [-10^9 ; 10^9] `
+- `0 <= numeros.length <= 10^5 || [0 ; 10^5] `
+- `-10^9 <= numeros[i] <= 10^9 || [-10^9 ; 10^9] `
+- **numeros es un array no decreciente.**
+- `-10^9 <= objetivo <= 10^9 || [-10^9 ; 10^9] `

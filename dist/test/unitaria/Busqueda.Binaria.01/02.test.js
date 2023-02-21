@@ -67,7 +67,14 @@ test(`encontrar_objetivo test 9`, () => {
     expect(resultado).toBe(salida);
 });
 test(`encontrar_objetivo test 10`, () => {
-    let numeros = [-(Math.pow(10, 4) + 1), 1, 3, 5, 7, Math.pow(10, 4) + 1];
+    let numeros = [
+        -(Math.pow(10, 4) + 1),
+        1,
+        3,
+        5,
+        7,
+        Math.pow(10, 4) + 1,
+    ];
     let Objetivo = Math.pow(10, 4) + 1;
     let salida = -1;
     let resultado = (0, Problema_1_1.encontrar_objetivo)(numeros, Objetivo);

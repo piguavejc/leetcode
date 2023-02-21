@@ -7,10 +7,10 @@ _Dada una rejilla de matriz m x n que está ordenada en orden no creciente tanto
 ```typescript
 // Entrada:
 let rejilla: number[] = [
-    [4, 3, 2, -1],
-    [3, 2, 1, -1],
-    [1, 1, -1, -2],
-    [-1, -1, -2, -3],
+  [4, 3, 2, -1],
+  [3, 2, 1, -1],
+  [1, 1, -1, -2],
+  [-1, -1, -2, -3],
 ];
 // Salida: 8
 // Explicación: Hay 8 números negativos en la matriz.
@@ -21,17 +21,17 @@ let rejilla: number[] = [
 ```typescript
 // Entrada:
 let rejilla: number[] = [
-    [3, 2],
-    [1, 0],
+  [3, 2],
+  [1, 0],
 ];
 // Salida: 0
 ```
 
 ##### _Restricciones_
 
--   `m == rejilla.length [m ; n]`
--   `n == rejilla[i].length [n ; m]`
--   `1 <= m, n <= 100 || [1 ; m] - [n ; 100]`
--   `-100 <= rejilla[i][j] <= 100 || [-100 ; 100]`
+- `m == rejilla.length [m ; n]`
+- `n == rejilla[i].length [n ; m]`
+- `1 <= m, n <= 100 || [1 ; m] - [n ; 100]`
+- `-100 <= rejilla[i][j] <= 100 || [-100 ; 100]`
 
 ##### _Siga: ¿Podrías encontrar una solución `O(n + m)`?_

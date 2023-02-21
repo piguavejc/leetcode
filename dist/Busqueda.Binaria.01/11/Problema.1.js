@@ -11,7 +11,7 @@ function pares_validos(numeros_1, numeros_2) {
         if (numeros_1[i] > numeros_2[j])
             ++i;
         else
-            distancia = Math.max(distancia, (j++ - i));
+            distancia = Math.max(distancia, j++ - i);
     }
     return distancia;
 }

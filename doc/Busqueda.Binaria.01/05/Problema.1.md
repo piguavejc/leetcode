@@ -31,4 +31,4 @@ let malo: number = 1;
 
 ##### Restricciones
 
--   `1 <= malo <= n <= (2^31 - 1)`
+- `1 <= malo <= n <= (2^31 - 1)`

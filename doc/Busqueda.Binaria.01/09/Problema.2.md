@@ -4,9 +4,9 @@ _Dada una matriz arr de enteros, comprueba si existen dos enteros N y M tales qu
 
 _Más formalmente, compruebe si existen dos índices i y j tales que :_
 
--   _i != j_
--   _0 <= i, j < arr.length_
--   _arr[i] == 2 \* arr[j]_
+- _i != j_
+- _0 <= i, j < arr.length_
+- _arr[i] == 2 \* arr[j]_
 
 #### _Ejemplo 1_
 
@@ -37,5 +37,5 @@ let array: number[] = [3, 1, 7, 11];
 
 # _Restricciones_
 
--   `2 <= arr.length <= 500`
--   `-10^3 <= arr[i] <= 10^3`
+- `2 <= arr.length <= 500`
+- `-10^3 <= arr[i] <= 10^3`

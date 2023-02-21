@@ -50,6 +50,6 @@ let distancia: number = 6;
 
 ##### Restricciones
 
--   ` 1 <= vector_1.length, vector_2.length <= 500 || [1 ; n] - [m ; 500]`
--   `-1000 <= vector_1[i], vector_2[j] <= 1000 || [1 ; n]`
--   `0 <= d <= 100 || [0 ; 100]`
+- ` 1 <= vector_1.length, vector_2.length <= 500 || [1 ; n] - [m ; 500]`
+- `-1000 <= vector_1[i], vector_2[j] <= 1000 || [1 ; n]`
+- `0 <= d <= 100 || [0 ; 100]`

@@ -4,8 +4,8 @@ _Se le da una matriz binaria m x n de 1's (que representan a los soldados) y 0's
 
 _Una fila i es más débil que una fila j si se cumple una de las siguientes condiciones_
 
--   _El número de soldados de la fila i es menor que el de la fila j._
--   _Ambas filas tienen el mismo número de soldados e i < j._
+- _El número de soldados de la fila i es menor que el de la fila j._
+- _Ambas filas tienen el mismo número de soldados e i < j._
 
 _Devuelve los índices de las k filas más débiles de la matriz ordenados del más débil al más fuerte._
 
@@ -14,11 +14,11 @@ _Devuelve los índices de las k filas más débiles de la matriz ordenados del m
 ```typescript
 // Entrada:
 let mat: number[][] = [
-    [1, 1, 0, 0, 0],
-    [1, 1, 1, 1, 0],
-    [1, 0, 0, 0, 0],
-    [1, 1, 0, 0, 0],
-    [1, 1, 1, 1, 1],
+  [1, 1, 0, 0, 0],
+  [1, 1, 1, 1, 0],
+  [1, 0, 0, 0, 0],
+  [1, 1, 0, 0, 0],
+  [1, 1, 1, 1, 1],
 ];
 let k: number = 3;
 // Salida: [2,0,3]
@@ -37,10 +37,10 @@ let k: number = 3;
 ```typescript
 // Entrada:
 let mat: number[][] = [
-    [1, 0, 0, 0],
-    [1, 1, 1, 1],
-    [1, 0, 0, 0],
-    [1, 0, 0, 0],
+  [1, 0, 0, 0],
+  [1, 1, 1, 1],
+  [1, 0, 0, 0],
+  [1, 0, 0, 0],
 ];
 let k: number = 2;
 // Salida: [0,2]
@@ -55,8 +55,8 @@ let k: number = 2;
 
 #### _Restricciones_
 
--   `m == mat.length [m ; n]`
--   `n == mat[i].length [n ; m]`
--   `2 <= n, m <= 100 [2 ; n] - [ m ; 100] `
--   `1 <= k <= m [1 ; m] `
--   `matrix[i][j] es 0 o 1.`
+- `m == mat.length [m ; n]`
+- `n == mat[i].length [n ; m]`
+- `2 <= n, m <= 100 [2 ; n] - [ m ; 100] `
+- `1 <= k <= m [1 ; m] `
+- `matrix[i][j] es 0 o 1.`

@@ -40,8 +40,8 @@ let objetivo: number = -1;
 
 #### Restricciones
 
--   `2 <= números.longitud <= 3 * 10^4 || [2 ; (3 * 10^4)]`
--   `-1000 <= números[i] <= 1000 || [-1000 ; 1000]`
--   _números se ordena en orden no decreciente._
--   `-1000 <= objetivo <= 1000 || [-1000 ; 1000]`
--   _Las pruebas se generan de forma que haya - exactamente una solución._
+- `2 <= números.longitud <= 3 * 10^4 || [2 ; (3 * 10^4)]`
+- `-1000 <= números[i] <= 1000 || [-1000 ; 1000]`
+- _números se ordena en orden no decreciente._
+- `-1000 <= objetivo <= 1000 || [-1000 ; 1000]`
+- _Las pruebas se generan de forma que haya - exactamente una solución._

@@ -1,8 +1,8 @@
 # Leetcode
+
 _Reto: [Leetcode](https://leetcode.com/study-plan/binary-search/). Es una plataforma en el cual nos permite enfrentar diferente tipos de problemas como busqueda binaria, programación dinamica entre otros._
 
 _En este proyecto se intenta resolver los problemas de busqueda binaria en sus 2 nivel (facil e intermedio), el nivel dificil es de paga para poder realizar los desafios_
-
 
 ### Previsualización :eye:
 
@@ -24,7 +24,7 @@ _A continuación se muestran los pasos para correr el abiente de desarrollo loca
 # 1. Clona este respositorio.
 $git clone https://github.com/jean-carlos-19/leetcode
 
-#2. Dirigete a la carpeta. 
+#2. Dirigete a la carpeta.
 $ cd leetcode
 
 #3. Instala las dependencias.
@@ -43,7 +43,6 @@ $ yarn dev
 $ yarn build
 ```
 
-
 ## Construido con 🛠️
 
 _Las herramientas utilizadas en este desafio fueron las siguientes:_
@@ -54,7 +53,7 @@ _Las herramientas utilizadas en este desafio fueron las siguientes:_
 
 ## Autores ✒️
 
-* **Jean Piguave** - *Trabajo Inicial* - [piguavejc](https://devchallenges.io/portfolio/jean-carlos-19)
+- **Jean Piguave** - _Trabajo Inicial_ - [piguavejc](https://devchallenges.io/portfolio/jean-carlos-19)
 
 ## Licencia 📄
 

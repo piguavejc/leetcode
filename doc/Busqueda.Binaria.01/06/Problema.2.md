@@ -22,6 +22,6 @@ let k: number = 2;
 
 ##### Restricciones
 
--   `1 <= arr.length <= 1000 || [1 ; 1000]`
--   `1 <= arr[i] <= 1000 || [1 ; 1000]`
--   `1 <= k <= 1000 || [1 ; 1000]` -`arr[i] < arr[j] for 1 <= i < j <= arr.length`
+- `1 <= arr.length <= 1000 || [1 ; 1000]`
+- `1 <= arr[i] <= 1000 || [1 ; 1000]`
+- `1 <= k <= 1000 || [1 ; 1000]` -`arr[i] < arr[j] for 1 <= i < j <= arr.length`

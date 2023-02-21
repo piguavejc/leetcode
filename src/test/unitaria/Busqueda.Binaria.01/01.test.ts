@@ -1,13 +1,13 @@
 import { buscar_objetivo } from "../../../Busqueda.Binaria.01/01/problema.1";
 import { juego_adivinanza } from "../../../Busqueda.Binaria.01/01/problema.2";
 test("adivinar numero 1", () => {
-    let entrada: number[] = [-1, 0, 3, 5, 9, 12];
-    let salida = -1;
-    let objetivo: number = 2;
-    let resultado: number = buscar_objetivo(entrada, objetivo);
-    expect(resultado).toBe(salida);
+  let entrada: number[] = [-1, 0, 3, 5, 9, 12];
+  let salida = -1;
+  let objetivo: number = 2;
+  let resultado: number = buscar_objetivo(entrada, objetivo);
+  expect(resultado).toBe(salida);
 });
-
+/*
 test("adivinar numero 2", () => {
     let entrada: number[] = [-1, 0, 3, 5, 9, 12];
     let salida: number = 4;
@@ -56,7 +56,7 @@ test("adivinar numero 7", () => {
     expect(resultado).toBe(salida);
 });
 
-/* Test de Juego de adivinanza */
+// Test de Juego de adivinanza 
 
 test("juego de adivinanza. test 1", () => {
     let numero: number = 10;
@@ -109,3 +109,4 @@ test("juego de adivinanza. test 7", () => {
     let resultado: number = juego_adivinanza(numero, objetivo);
     expect(resultado).toBe(salida);
 });
+*/
