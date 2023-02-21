@@ -6,14 +6,23 @@ _En este proyecto se intenta resolver los problemas de busqueda binaria en sus 2
 
 ### Previsualización :eye:
 
-![captura de los test del desafio](https://github.com/jean-carlos-19/team-page/blob/master/captura/escritorio.png)
+![captura de los test del desafio]()
 
 ### Pre-requisitos 📋
 
 _Para el correcto funcionamiento del proyecto de desafios se necesita tener instalado las siguientes dependencia sea de manera local o global_
 
 ```bash
-No se necesitan dependencias globales.
+#Dependencias globales
+
+#1 Tener Node instalado
+nvm use v16.19.0
+
+# 1. Tener instalado yarn 
+npm install -g yarn
+
+# 2. Tener instalado prettier 
+npm install -g prettier
 ```
 
 ### Instalación 🔧
