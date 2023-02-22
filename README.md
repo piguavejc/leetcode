@@ -6,7 +6,7 @@ _En este proyecto se intenta resolver los problemas de busqueda binaria en sus 2
 
 ### Previsualización :eye:
 
-![captura de los test del desafio]()
+![captura de los test del desafio](https://github.com/jean-carlos-19/leetcode/blob/master/captura/test.png)
 
 ### Pre-requisitos 📋
 

@@ -15,7 +15,12 @@ function buscar_objetivo(numeros: number[], objetivo: number): number {
     Math.pow(10, 4)
   ); /* [objetivo ; 10^4] */
 
-  if (todo_mal_numeros || todo_mal_objetivo) return -1;
+  let todo_mal_inicial: boolean = restriccion_2(
+    -Math.pow(10, 4),
+    inicial
+  ); /* [-10^4 ; numeros[0] ] */
+
+  if (todo_mal_numeros || todo_mal_objetivo || todo_mal_inicial) return -1;
 
   if (inicial === objetivo) return minimo;
 
@@ -51,7 +56,7 @@ function restriccion_1(
 }
 
 function restriccion_2(minimo: number, maximo: number): boolean {
-  if (!(minimo > maximo)) return true;
+  if (!(minimo < maximo)) return true;
 
   return false;
 }

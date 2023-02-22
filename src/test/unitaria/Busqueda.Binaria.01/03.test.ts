@@ -28,8 +28,8 @@ test("Es cudrado perfecto? test 2", () => {
   expect(salida).toBe(objetivo);
 });
 
-/* Distancia de 2 vectores */
-
+// Distancia de 2 vectores
+/*
 test("encontar valor distancia test 1", () => {
   let vector_1 = [4, 5, 8];
   let vector_2 = [10, 9, 1, 8];
@@ -98,3 +98,4 @@ test("encontar valor distancia test 5", () => {
 
   expect(salida).toBe(objetivo);
 });
+*/

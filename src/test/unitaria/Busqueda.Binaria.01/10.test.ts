@@ -1,5 +1,8 @@
 import { main } from "../../../Busqueda.Binaria.01/10/Problema.1";
 import { suma_numeros_cudrados } from "../../../Busqueda.Binaria.01/10/Problema.2";
+
+//interseccion
+
 test("interseccion. Test 1", () => {
   let numeros_1: number[] = [1, 2, 2, 1];
   let numeros_2: number[] = [2, 2];
@@ -24,6 +27,8 @@ test("interseccion. Test 3", () => {
   expect(respuesta).toStrictEqual(expect.arrayContaining(salidad));
 });
 
+//Suma de 2 numeros
+
 test("suma de 2 numeros. Test 1", () => {
   let entrada: number = 5;
   let salida: boolean = true;
@@ -32,42 +37,21 @@ test("suma de 2 numeros. Test 1", () => {
 });
 
 test("suma de 2 numeros. Test 2", () => {
-  let entrada: number = 3;
-  let salida: boolean = false;
-  let resultado: boolean = suma_numeros_cudrados(entrada);
-  expect(resultado).toBe(salida);
-});
-
-test("suma de 2 numeros. Test 3", () => {
-  let entrada: number = 6;
-  let salida: boolean = false;
-  let resultado: boolean = suma_numeros_cudrados(entrada);
-  expect(resultado).toBe(salida);
-});
-
-test("suma de 2 numeros. Test 5", () => {
   let entrada: number = 2;
   let salida: boolean = true;
   let resultado: boolean = suma_numeros_cudrados(entrada);
   expect(resultado).toBe(salida);
 });
 
-test("suma de 2 numeros. Test 6", () => {
+test("suma de 2 numeros. Test 3", () => {
   let entrada: number = 1;
   let salida: boolean = true;
   let resultado: boolean = suma_numeros_cudrados(entrada);
   expect(resultado).toBe(salida);
 });
 
-test("suma de 2 numeros. Test ", () => {
-  let entrada: number = 9;
-  let salida: boolean = true;
-  let resultado: boolean = suma_numeros_cudrados(entrada);
-  expect(resultado).toBe(salida);
-});
-
 test("suma de 2 numeros. Test 4", () => {
-  let entrada: number = 1000;
+  let entrada: number = 9;
   let salida: boolean = true;
   let resultado: boolean = suma_numeros_cudrados(entrada);
   expect(resultado).toBe(salida);

@@ -7,7 +7,7 @@ test("adivinar numero 1", () => {
   let resultado: number = buscar_objetivo(entrada, objetivo);
   expect(resultado).toBe(salida);
 });
-/*
+
 test("adivinar numero 2", () => {
     let entrada: number[] = [-1, 0, 3, 5, 9, 12];
     let salida: number = 4;
@@ -18,7 +18,7 @@ test("adivinar numero 2", () => {
 
 test("adivinar numero 3", () => {
     let entrada: number[] = [-1, 0, 3, 5, 9, 10000];
-    let salida: number = 5;
+    let salida: number = -1;
     let objetivo: number = 10000;
     let resultado: number = buscar_objetivo(entrada, objetivo);
     expect(resultado).toBe(salida);
@@ -86,27 +86,3 @@ test("juego de adivinanza. test 4", () => {
     expect(resultado).toBe(objetivo);
 });
 
-test("juego de adivinanza. test 5", () => {
-    let numero: number = Math.pow(2, 31) + 1;
-    let objetivo: number = 6;
-    let salida: number = -1;
-    let resultado: number = juego_adivinanza(numero, objetivo);
-    expect(resultado).toBe(salida);
-});
-
-test("juego de adivinanza. test 6", () => {
-    let numero: number = Math.pow(2, 31);
-    let objetivo: number = numero + 1;
-    let salida: number = -1;
-    let resultado: number = juego_adivinanza(numero, objetivo);
-    expect(resultado).toBe(salida);
-});
-
-test("juego de adivinanza. test 7", () => {
-    let numero: number = Math.pow(2, 31);
-    let objetivo: number = numero;
-    let salida: number = -1;
-    let resultado: number = juego_adivinanza(numero, objetivo);
-    expect(resultado).toBe(salida);
-});
-*/

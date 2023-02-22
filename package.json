@@ -28,7 +28,8 @@
     "build": "tsc --project tsconfig.json",
     "test": "jest dist/test/unitaria",
     "prettier": "prettier --write ./*",
-    "test-unico": "jest dist/test/unitaria/Busqueda.Binaria.02/01.test.js"
+    "test-paquete": "jest dist/test/unitaria/Busqueda.Binaria.02",
+    "test-unico": "jest dist/test/unitaria/Busqueda.Binaria.01/03.test.js"
   },
   "devDependencies": {
     "@types/jest": "^27.4.1",

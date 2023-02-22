@@ -9,7 +9,8 @@ function buscar_objetivo(numeros, objetivo) {
     let ultimo = numeros[maximo];
     let todo_mal_numeros = restriccion_1(1, Math.pow(10, 4), longitud); /* [1 ; 10^4] */
     let todo_mal_objetivo = restriccion_2(objetivo, Math.pow(10, 4)); /* [objetivo ; 10^4] */
-    if (todo_mal_numeros || todo_mal_objetivo)
+    let todo_mal_inicial = restriccion_2(-Math.pow(10, 4), inicial); /* [-10^4 ; numeros[0] ] */
+    if (todo_mal_numeros || todo_mal_objetivo || todo_mal_inicial)
         return -1;
     if (inicial === objetivo)
         return minimo;
@@ -37,7 +38,7 @@ function restriccion_1(minimo, maximo, longitud) {
     return false;
 }
 function restriccion_2(minimo, maximo) {
-    if (!(minimo > maximo))
+    if (!(minimo < maximo))
         return true;
     return false;
 }
