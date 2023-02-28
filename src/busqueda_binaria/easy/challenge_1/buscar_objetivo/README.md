@@ -45,3 +45,6 @@ let objetivo: number = 1;
 
 - _**1** `<=` **n** `<=` **(2^31 - 1)** `|----|` **[1 : (2^31 - 1)]**_
 - _**1** `<=` **objetivo** `<=` **n** `|----|` **[1 : n ]**_
+
+#### _Resultado:_
+![captura de los test del desafio](https://github.com/jean-carlos-19/leetcode/blob/master/captura/challengue-1-01.png)
