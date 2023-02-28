@@ -18,10 +18,10 @@ _Para el correcto funcionamiento del proyecto de desafios se necesita tener inst
 #1 Tener Node instalado
 nvm use v16.19.0
 
-# 1. Tener instalado yarn 
+# 1. Tener instalado yarn
 npm install -g yarn
 
-# 2. Tener instalado prettier 
+# 2. Tener instalado prettier
 npm install -g prettier
 ```
 

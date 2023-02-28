@@ -1,5 +1,5 @@
-import {combinatoria_triangulo} from "@busqueda_binaria/medium/challenges_1";
-import {suma_vectores_minimo} from "@busqueda_binaria/medium/challenges_1";
+import { combinatoria_triangulo } from "@busqueda_binaria/medium/challenges_1";
+import { suma_vectores_minimo } from "@busqueda_binaria/medium/challenges_1";
 test("Suma de Vectores Minimo. Test 1", () => {
   let entrada: number[] = [2, 3, 1, 2, 4, 3];
   let objetivo: number = 7;

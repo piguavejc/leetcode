@@ -43,4 +43,4 @@ function isBadVersion(numero: number): boolean {
   return true;
 }
 
-export {encontrar_version_mala};
+export { encontrar_version_mala };
