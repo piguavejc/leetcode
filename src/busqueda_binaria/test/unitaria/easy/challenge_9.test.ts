@@ -1,5 +1,5 @@
-import { k_filas_mas_debil_matriz } from "../../../Busqueda.Binaria.01/09/Problema.1";
-import { encontrar_doble } from "../../../Busqueda.Binaria.01/09/Problema.2";
+import { k_filas_mas_debil_matriz } from "@busqueda_binaria/easy/challenges_9";
+import { encontrar_doble } from "@busqueda_binaria/easy/challenges_9";
 
 test("k filas mas debil matriz. test 1", () => {
   let entrada: number[][] = [

@@ -1,5 +1,5 @@
-import { construccion_escaleras } from "../../../Busqueda.Binaria.01/06/Problema.1";
-import { encontrar_enesimo_numero } from "../../../Busqueda.Binaria.01/06/Problema.2";
+import { construccion_escaleras } from "@busqueda_binaria/easy/challenges_6";
+import { encontrar_enesimo_numero } from "@busqueda_binaria/easy/challenges_6";
 test("contruccion de escalera. test 1", () => {
   let entrada: number = 6;
   let salida: number = 3;

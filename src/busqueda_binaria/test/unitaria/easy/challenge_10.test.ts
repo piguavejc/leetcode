@@ -1,5 +1,5 @@
-import { main } from "../../../Busqueda.Binaria.01/10/Problema.1";
-import { suma_numeros_cudrados } from "../../../Busqueda.Binaria.01/10/Problema.2";
+import { main } from "@busqueda_binaria/easy/challenges_10";
+import { suma_numeros_cudrados } from "@busqueda_binaria/easy/challenges_10";
 
 //interseccion
 

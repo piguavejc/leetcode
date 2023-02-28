@@ -1,5 +1,5 @@
-import { encontrar_objetivo } from "../../../Busqueda.Binaria.01/02/Problema.1";
-import { indice_de_pico_array_montana } from "../../../Busqueda.Binaria.01/02/Problema.2";
+import { encontrar_objetivo } from "@busqueda_binaria/easy/challenges_2";
+import { indice_de_pico_array_montana } from "@busqueda_binaria/easy/challenges_2";
 
 /* Test de encontrar el objetivo */
 

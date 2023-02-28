@@ -1,5 +1,5 @@
-import { obtener_menor_numero } from "../../../Busqueda.Binaria.01/11/Problema.2";
-import { pares_validos } from "../../../Busqueda.Binaria.01/11/Problema.1";
+import { obtener_menor_numero } from "@busqueda_binaria/easy/challenges_11";
+import { pares_validos } from "@busqueda_binaria/easy/challenges_11";
 
 test("pares valaidos. Test 1", () => {
   let numeros_1: number[] = [55, 30, 5, 4, 2];

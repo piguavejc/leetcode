@@ -1,5 +1,5 @@
-import { numeros_negativos } from "../../../Busqueda.Binaria.01/08/Problema.1";
-import { buscar_matriz } from "../../../Busqueda.Binaria.01/08/Problema.2";
+import { numeros_negativos } from "@busqueda_binaria/easy/challenges_8";
+import { buscar_matriz } from "@busqueda_binaria/easy/challenges_8";
 
 test("Numeros negativos. Test 1", () => {
   let entrada: number[][] = [

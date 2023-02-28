@@ -1,5 +1,5 @@
-import { calculo_raiz_cuadrada } from "../../../Busqueda.Binaria.01/04/Problema.1";
-import { buscar_letra_mayor } from "../../../Busqueda.Binaria.01/04/Problema.2";
+import { calculo_raiz_cuadrada } from "@busqueda_binaria/easy/challenges_4";
+import { buscar_letra_mayor } from "@busqueda_binaria/easy/challenges_4";
 test("calculo raiz cuadrada test 1", () => {
   let numero: number = 8;
   let objetivo: number = 2;

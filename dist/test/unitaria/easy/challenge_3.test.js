@@ -1,33 +1,24 @@
-import { es_cuadrado_perfecto } from "@busqueda_binaria/easy/challenges_3";
-import { encontar_valor_distancia } from "@busqueda_binaria/easy/challenges_3";
-
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const challenges_3_1 = require("../../../easy/challenge_3");
 test("Es cudrado perfecto? test 1", () => {
-  let numero: number = 16;
-  let objetivo: boolean = true;
-
-  let salida: boolean = es_cuadrado_perfecto(numero);
-
-  expect(objetivo).toBe(salida);
+    let numero = 16;
+    let objetivo = true;
+    let salida = (0, challenges_3_1.es_cuadrado_perfecto)(numero);
+    expect(objetivo).toBe(salida);
 });
-
 test("Es cudrado perfecto? test 2", () => {
-  let numero: number = 14;
-  let objetivo: boolean = false;
-
-  let salida: boolean = es_cuadrado_perfecto(numero);
-
-  expect(objetivo).toBe(salida);
+    let numero = 14;
+    let objetivo = false;
+    let salida = (0, challenges_3_1.es_cuadrado_perfecto)(numero);
+    expect(objetivo).toBe(salida);
 });
-
 test("Es cudrado perfecto? test 2", () => {
-  let numero: number = 64;
-  let objetivo: boolean = true;
-
-  let salida: boolean = es_cuadrado_perfecto(numero);
-
-  expect(salida).toBe(objetivo);
+    let numero = 64;
+    let objetivo = true;
+    let salida = (0, challenges_3_1.es_cuadrado_perfecto)(numero);
+    expect(salida).toBe(objetivo);
 });
-
 // Distancia de 2 vectores
 /*
 test("encontar valor distancia test 1", () => {
@@ -98,4 +89,4 @@ test("encontar valor distancia test 5", () => {
 
   expect(salida).toBe(objetivo);
 });
-*/
+*/ 

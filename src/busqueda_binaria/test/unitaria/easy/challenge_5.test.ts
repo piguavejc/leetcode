@@ -1,4 +1,4 @@
-import { encontrar_posicion_final_e_inicial } from "../../../Busqueda.Binaria.01/05/Problema.2";
+import { encontrar_posicion_final_e_inicial } from "@busqueda_binaria/easy/challenges_5";
 test("encontrar el inidice inicial y final del objetivo. Test 1", () => {
   let enteros: number[] = [5, 7, 7, 8, 8, 10];
   let objetivo: number = 8;

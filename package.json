@@ -28,8 +28,8 @@
     "build": "tsc --project tsconfig.json",
     "test": "jest dist/test/unitaria",
     "prettier": "prettier --write ./*",
-    "test-paquete": "jest dist/test/unitaria/Busqueda.Binaria.02",
-    "test-unico": "jest dist/test/unitaria/Busqueda.Binaria.01/03.test.js"
+    "test-paquete": "jest dist/test/unitaria/easy",
+    "test-unico": "jest dist/test/unitaria/easy/challenge_1.test.js"
   },
   "devDependencies": {
     "@types/jest": "^27.4.1",
@@ -37,6 +37,7 @@
     "ts-jest": "^27.1.3"
   },
   "dependencies": {
-    "ts-node": "^10.5.0"
+    "ts-node": "^10.5.0",
+    "tsc-alias": "^1.8.2"
   }
 }

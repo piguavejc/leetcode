@@ -1,4 +1,4 @@
-import { obtener_menor_numero } from "../../../Busqueda.Binaria.01/12/Problema.1";
+import { obtener_menor_numero } from "@busqueda_binaria/easy/challenges_12";
 
 test("obtener el menor numero. Test 1", () => {
   let entrada: number[] = [3, 4, 5, 1, 2];

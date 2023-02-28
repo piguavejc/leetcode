@@ -1,5 +1,5 @@
-import { buscar_objetivo } from "../../../Busqueda.Binaria.01/01/problema.1";
-import { juego_adivinanza } from "../../../Busqueda.Binaria.01/01/problema.2";
+import { buscar_objetivo } from "@busqueda_binaria/easy/challenges_1";
+import { juego_adivinanza } from "@busqueda_binaria/easy/challenges_1";
 test("adivinar numero 1", () => {
   let entrada: number[] = [-1, 0, 3, 5, 9, 12];
   let salida = -1;

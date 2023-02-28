@@ -27,8 +27,22 @@
     "module": "commonjs" /* Specify what module code is generated. */,
     // "rootDir": "./",                                  /* Specify the root folder within your source files. */
     // "moduleResolution": "node",                       /* Specify how TypeScript looks up a file from a given module specifier. */
-    // "baseUrl": "./",                                  /* Specify the base directory to resolve non-relative module names. */
-    // "paths": {},                                      /* Specify a set of entries that re-map imports to additional lookup locations. */
+    "baseUrl": "./",                                  /* Specify the base directory to resolve non-relative module names. */
+    "paths": {
+      "@busqueda_binaria/easy/challenges_1":["./src/busqueda_binaria/easy/challenge_1"],
+      "@busqueda_binaria/easy/challenges_2":["./src/busqueda_binaria/easy/challenge_2"],
+      "@busqueda_binaria/easy/challenges_3":["./src/busqueda_binaria/easy/challenge_3"],
+      "@busqueda_binaria/easy/challenges_4":["./src/busqueda_binaria/easy/challenge_4"],
+      "@busqueda_binaria/easy/challenges_5":["./src/busqueda_binaria/easy/challenge_5"],
+      "@busqueda_binaria/easy/challenges_6":["./src/busqueda_binaria/easy/challenge_6"],
+      "@busqueda_binaria/easy/challenges_7":["./src/busqueda_binaria/easy/challenge_7"],
+      "@busqueda_binaria/easy/challenges_8":["./src/busqueda_binaria/easy/challenge_8"],
+      "@busqueda_binaria/easy/challenges_9":["./src/busqueda_binaria/easy/challenge_9"],
+      "@busqueda_binaria/easy/challenges_10":["./src/busqueda_binaria/easy/challenge_10"],
+      "@busqueda_binaria/easy/challenges_11":["./src/busqueda_binaria/easy/challenge_11"],
+      "@busqueda_binaria/easy/challenges_12":["./src/busqueda_binaria/easy/challenge_12"],
+      "@busqueda_binaria/medium/challenges_1":["./src/busqueda_binaria/medium/challenge_1"]
+    },                                      /* Specify a set of entries that re-map imports to additional lookup locations. */
     // "rootDirs": [],                                   /* Allow multiple folders to be treated as one when resolving modules. */
     // "typeRoots": [],                                  /* Specify multiple folders that act like `./node_modules/@types`. */
     // "types": [],                                      /* Specify type package names to be included without being referenced in a source file. */
@@ -97,5 +111,7 @@
     /* Completeness */
     // "skipDefaultLibCheck": true,                      /* Skip type checking .d.ts files that are included with TypeScript. */
     "skipLibCheck": true /* Skip type checking all .d.ts files. */
-  }
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
 }

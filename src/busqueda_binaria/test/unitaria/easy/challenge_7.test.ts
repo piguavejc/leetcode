@@ -1,5 +1,5 @@
-import { suma_vectores } from "../../../Busqueda.Binaria.01/07/Problema.1";
-import { vector_especial } from "../../../Busqueda.Binaria.01/07/Problema.2";
+import { suma_vectores } from "@busqueda_binaria/easy/challenges_7";
+import { vector_especial } from "@busqueda_binaria/easy/challenges_7";
 import { datos_3 } from "./datos";
 
 test("Suma. Test 1", () => {
