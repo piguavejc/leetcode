@@ -53,3 +53,6 @@ let distancia: number = 6;
 - ` 1 <= vector_1.length, vector_2.length <= 500 || [1 ; n] - [m ; 500]`
 - `-1000 <= vector_1[i], vector_2[j] <= 1000 || [1 ; n]`
 - `0 <= d <= 100 || [0 ; 100]`
+
+#### _Resultado:_
+![captura de los test del desafio](https://github.com/jean-carlos-19/leetcode/blob/master/captura/challengue-3-02.png)

@@ -25,11 +25,11 @@
   "scripts": {
     "start": "nodemon ./dist/index.js",
     "dev": "nodemon ./src/index.ts",
-    "build": "tsc --project tsconfig.json",
+    "build": "tsc --project tsconfig.json && yarn tsc-alias",
     "test": "jest dist/test/unitaria",
     "prettier": "prettier --write ./*",
     "test-paquete": "jest dist/test/unitaria/easy",
-    "test-unico": "jest dist/test/unitaria/easy/challenge_1.test.js"
+    "test-unico": "jest dist/test/unitaria/easy/challenge_3.test.js"
   },
   "devDependencies": {
     "@types/jest": "^27.4.1",
