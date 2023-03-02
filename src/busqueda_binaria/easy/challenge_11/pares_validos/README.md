@@ -27,3 +27,6 @@ Restricciones:
 Todos los valores de numsson únicos .
 numses una matriz ascendente que posiblemente se gira.
 -104 <= target <= 104
+
+#### _Resultado:_
+![captura de los test del desafio](https://github.com/jean-carlos-19/leetcode/blob/master/captura/challengue-?-?.png)

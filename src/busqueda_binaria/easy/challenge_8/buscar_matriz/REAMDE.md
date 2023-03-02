@@ -41,3 +41,8 @@ let objetivo: number = 13;
 - `n == matrix[i].length [n ; m] `
 - `1 <= m, n <= 100 || [1 ; m] - [n ; 100]`
 - `-10^4 <= matrix[i][j], target <= 10^4 || [-10^4 ; matrix[i][j]] [target ; 10^4]`
+
+
+
+#### _Resultado:_
+![captura de los test del desafio](https://github.com/jean-carlos-19/leetcode/blob/master/captura/challengue-8-2.png)

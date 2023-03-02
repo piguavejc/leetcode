@@ -46,3 +46,6 @@ let nums2: number[] = [25, 25, 25, 25, 25];
 - _1 <= nums1.length, nums2.length <= 10^5_
 - _1 <= nums1[i], nums2[j] <= 10^5_
 - _Ambos nums1y nums2son no crecientes ._
+
+#### _Resultado:_
+![captura de los test del desafio](https://github.com/jean-carlos-19/leetcode/blob/master/captura/challengue-?-?.png)
