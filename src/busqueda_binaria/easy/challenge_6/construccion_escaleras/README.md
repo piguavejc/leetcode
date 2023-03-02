@@ -27,3 +27,6 @@ let numero: number = 8;
 ##### Restriciones
 
 - `1 <= n <= 2^31 -1 || [1 ; 2^31]`
+
+#### _Resultado:_
+![captura de los test del desafio](https://github.com/jean-carlos-19/leetcode/blob/master/captura/challengue-6-0.png)
