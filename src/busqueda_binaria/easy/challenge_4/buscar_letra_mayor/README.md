@@ -34,4 +34,5 @@ Salida: "f"
 - El objetivo es una letra inglesa minúscula.
 
 #### _Resultado:_
+
 ![captura de los test del desafio](https://github.com/jean-carlos-19/leetcode/blob/master/captura/challengue-4-02.png)

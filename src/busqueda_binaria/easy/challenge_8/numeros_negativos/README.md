@@ -36,6 +36,6 @@ let rejilla: number[] = [
 
 ##### _Siga: ¿Podrías encontrar una solución `O(n + m)`?_
 
-
 #### _Resultado:_
+
 ![captura de los test del desafio](https://github.com/jean-carlos-19/leetcode/blob/master/captura/challengue-8-1.png)

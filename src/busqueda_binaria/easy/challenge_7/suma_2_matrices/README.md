@@ -47,4 +47,5 @@ let objetivo: number = -1;
 - _Las pruebas se generan de forma que haya - exactamente una solución._
 
 #### _Resultado:_
+
 ![captura de los test del desafio](https://github.com/jean-carlos-19/leetcode/blob/master/captura/challengue-7-1.png)

@@ -32,6 +32,6 @@ n == nums.length
 Todos los enteros de numsson únicos .
 numsse ordena y rota entre 1y nveces.
 
-
 #### _Resultado:_
+
 ![captura de los test del desafio](https://github.com/jean-carlos-19/leetcode/blob/master/captura/challengue-?-?.png)

@@ -4,16 +4,14 @@ exports.suma_numeros_cudrados = void 0;
 function suma_numeros_cudrados(objetivo) {
     let sqrt = Math.trunc(Math.sqrt(objetivo));
     let todo_mal_objetivo = restriccion(0, Math.pow(2, 31), objetivo); /* [0 ; 2^31] */
-    if (todo_mal_objetivo)
-        return null;
     if (objetivo === 0)
         return true;
+    if (todo_mal_objetivo)
+        return null;
     while (sqrt > 0) {
         let a2 = sqrt * sqrt;
         let indicado = objetivo - a2;
-        if (indicado === 0)
-            return true;
-        let respuesta = busqueda_binaria(Math.trunc(indicado / 2));
+        let respuesta = busqueda_binaria(indicado);
         if (respuesta)
             return true;
         sqrt -= 1;

@@ -42,4 +42,5 @@ let array: number[] = [0, 10, 5, 2];
 _Siguiendo con el tema: **Encontrar el O(n)** es sencillo, ¿podrías **encontrar** una solución **O(log(n))**?_
 
 #### _Resultado:_
+
 ![captura de los test del desafio](https://github.com/jean-carlos-19/leetcode/blob/master/captura/challengue-2-02.png)

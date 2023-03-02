@@ -39,4 +39,5 @@ let objetivo: number = 0;
 - `-10^9 <= objetivo <= 10^9 || [-10^9 ; 10^9] `
 
 #### _Resultado:_
+
 ![captura de los test del desafio](https://github.com/jean-carlos-19/leetcode/blob/master/captura/challengue-5-02.png)

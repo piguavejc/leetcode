@@ -40,5 +40,7 @@ let numeros: number[] = [0, 4, 3, 0, 4];
 
 - `1 <= numeross.length <= 100 || [1 ; 100]`
 - `0 <= numeross[i] <= 1000 || [0 ; 1000]`
+
 #### _Resultado:_
+
 ![captura de los test del desafio](https://github.com/jean-carlos-19/leetcode/blob/master/captura/challengue-7-2.png)

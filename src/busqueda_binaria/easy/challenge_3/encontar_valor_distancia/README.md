@@ -55,4 +55,5 @@ let distancia: number = 6;
 - `0 <= d <= 100 || [0 ; 100]`
 
 #### _Resultado:_
+
 ![captura de los test del desafio](https://github.com/jean-carlos-19/leetcode/blob/master/captura/challengue-3-02.png)

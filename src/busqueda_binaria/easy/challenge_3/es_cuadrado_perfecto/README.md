@@ -21,5 +21,7 @@ let numero: number = 14;
 ##### Restricciones
 
 - ` 1 <= num <= 2^31 - 1 || [1 ; (2^31 - 1)]`
+
 #### _Resultado:_
+
 ![captura de los test del desafio](https://github.com/jean-carlos-19/leetcode/blob/master/captura/challengue-3-01.png)

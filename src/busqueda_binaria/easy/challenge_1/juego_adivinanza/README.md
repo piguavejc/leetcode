@@ -37,4 +37,5 @@ let objetivo: number = 2;
 - _Números se ordena en orden ascendente_
 
 #### _Resultado:_
+
 ![captura de los test del desafio](https://github.com/jean-carlos-19/leetcode/blob/master/captura/challengue-1-02.png)
