@@ -23,4 +23,4 @@ let c = 3;
 
 - `0 <= c <= 2^31 - 1 [0 ; (2^31 - 1)]`
 #### _Resultado:_
-![captura de los test del desafio](https://github.com/jean-carlos-19/leetcode/blob/master/captura/challengue-?-?.png)
+![captura de los test del desafio](https://github.com/jean-carlos-19/leetcode/blob/master/captura/challengue-10-02.png)
