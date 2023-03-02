@@ -37,3 +37,6 @@ let objetivo: number = 7;
 - _**-10^4** `<=` **numeros[i]** `<=` **10^4** `|---|` **[-10^4 : 10^4]**_
 - _numeros contiene valores distintos ordenados de forma ascendente._
 - _**-10^4** `<=` **objetivo** `<=` **10^4** `|----|` **[-10^4 ; 10^4]**_
+
+#### _Resultado:_
+![captura de los test del desafio](https://github.com/jean-carlos-19/leetcode/blob/master/captura/challengue-2-01.png)
