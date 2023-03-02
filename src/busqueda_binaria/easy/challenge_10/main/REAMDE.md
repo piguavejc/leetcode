@@ -32,4 +32,4 @@ let nums2 = [9, 4, 9, 8, 4];
 - _¿Y si el tamaño de nums1 es pequeño comparado con el de nums2? ¿Qué algoritmo es mejor?_
 - _¿Y si los elementos de nums2 están almacenados en el disco, y la memoria es limitada de tal manera que no puedes cargar todos los elementos en la memoria a la vez?_
 #### _Resultado:_
-![captura de los test del desafio](https://github.com/jean-carlos-19/leetcode/blob/master/captura/challengue-?-?.png)
+![captura de los test del desafio](https://github.com/jean-carlos-19/leetcode/blob/master/captura/challengue-10-1.png)
