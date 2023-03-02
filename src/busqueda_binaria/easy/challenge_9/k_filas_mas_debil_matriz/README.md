@@ -61,4 +61,4 @@ let k: number = 2;
 - `1 <= k <= m [1 ; m] `
 - `matrix[i][j] es 0 o 1.`
 #### _Resultado:_
-![captura de los test del desafio](https://github.com/jean-carlos-19/leetcode/blob/master/captura/challengue-?-?.png)
+![captura de los test del desafio](https://github.com/jean-carlos-19/leetcode/blob/master/captura/challengue-9-1.png)

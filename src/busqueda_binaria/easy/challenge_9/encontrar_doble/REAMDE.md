@@ -40,4 +40,4 @@ let array: number[] = [3, 1, 7, 11];
 - `2 <= arr.length <= 500`
 - `-10^3 <= arr[i] <= 10^3`
 #### _Resultado:_
-![captura de los test del desafio](https://github.com/jean-carlos-19/leetcode/blob/master/captura/challengue-?-?.png)
+![captura de los test del desafio](https://github.com/jean-carlos-19/leetcode/blob/master/captura/challengue-9-2.png)
