@@ -32,3 +32,7 @@ let malo: number = 1;
 ##### Restricciones
 
 - `1 <= malo <= n <= (2^31 - 1)`
+
+
+#### _Resultado:_
+![captura de los test del desafio](https://github.com/jean-carlos-19/leetcode/blob/master/captura/challengue-5-01.png)
