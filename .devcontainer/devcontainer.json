@@ -1,0 +1,19 @@
+{
+  "name": "leetcode",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:1-20-bullseye",
+  "features": {
+    "ghcr.io/shyim/devcontainers-features/bun:0": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "esbenp.prettier-vscode",
+        "amatiasq.sort-imports",
+        "github.copilot",
+        "mhutchie.git-graph",
+        "eamodio.gitlens",
+        "oxc.oxc-vscode"
+      ]
+    }
+  },
+}
