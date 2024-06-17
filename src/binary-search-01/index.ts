@@ -1,4 +1,4 @@
-function search(nums: number[], target: number): number {
+export function search(nums: number[], target: number): number {
   let indexStart = 0;
   let indexEnd = nums.length - 1;
 
